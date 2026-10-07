@@ -57,3 +57,92 @@ img{
     margin: auto;
     filter: saturate(0.7);
 } */
+body {
+    margin: 0;
+    background: black;
+}
+
+.container {
+    display: flex;
+    width: 1380px;
+    height: 1050px;
+    gap: 15px;
+}
+
+.block {
+    background: white;
+    border-radius: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 295px;
+}
+
+.block1 {
+    height: 500px;
+}
+
+.block2 {
+    height: 235px;
+}
+
+.block3 {
+    height: 285px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 705px;
+}
+
+.top {
+    display: flex;
+    gap: 15px;
+    height: 295px;
+}
+
+.block4 {
+    flex: 1;
+}
+
+.block5 {
+    flex: 1;
+}
+
+.block6 {
+    height: 425px;
+}
+
+.bottom {
+    display: flex;
+    gap: 15px;
+    height: 285px;
+}
+
+.block7 {
+    flex: 1;
+}
+
+.block8 {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 325px;
+}
+
+.block9 {
+    height: 540px;
+}
+
+.block10 {
+    height: 465px;
+}
